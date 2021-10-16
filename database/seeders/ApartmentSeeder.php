@@ -19,7 +19,7 @@ class ApartmentSeeder extends Seeder
         DB::table('apartments')->insert([
             [
                 'id' => 1,
-                'name' => 'home1 SomeWhere in Neverland',
+                'name' => 'Công trình chung cư Berriver 100m2 2 ngủ Nguyễn Văn Cừ – chị Chung',
                 'address' => 'HN',
                 'price' => 2,
                 'content' => 'Nhà ở Hà Nội',
@@ -29,11 +29,11 @@ class ApartmentSeeder extends Seeder
             ],
             [
                 'id' => 2,
-                'name' => 'home2 SomeWhere in Neverland',
+                'name' => 'Thiết kế nội thất chung cư Vinhomes Smart City S1 65m2 2 ngủ – anh Lâm',
                 'address' => 'HN',
                 'price' => 3,
                 'content' => 'Nhà ở Hà Nội',
-                'thumbnail' => 'https://noithattrevietnam.com/uploaded/Kien-thuc-nha-dep/hinh-anh-nha-2-tang-mai-thai/1-hinh-anh-nha-2-tang-mai-thai.jpg',
+                'thumbnail' => 'https://noithattrevietnam.com/temp/-uploaded-2021-01-chi-chung-nguyen-van-cu_1-can-ho-chung-cu-berriver-100m2-2-ngu-nguyen-van-cu_cr_600x450.jpg',
                 'detail' => 'Nhà ở Hà Nội, Văn Miếu',
                 'status' => 2,
             ],
@@ -43,7 +43,7 @@ class ApartmentSeeder extends Seeder
                 'address' => 'HN',
                 'price' => 4,
                 'content' => 'Nhà ở Hà Nội',
-                'thumbnail' => 'https://noithattrevietnam.com/uploaded/Kien-thuc-nha-dep/hinh-anh-nha-2-tang-mai-thai/1-hinh-anh-nha-2-tang-mai-thai.jpg',
+                'thumbnail' => 'https://noithattrevietnam.com/temp/-uploaded-2021-01-chi-chung-nguyen-van-cu_mat-bang-noi-that-can-100m2-nguyen-van-cu_cr_600x450.jpg',
                 'detail' => 'Nhà ở Hà Nội, Văn Miếu',
                 'status' => 3,
             ],
